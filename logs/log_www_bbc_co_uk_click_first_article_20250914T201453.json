@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-09-14T20:14:24.075539Z",
+  "events": [
+    {
+      "timestamp": "2025-09-14T20:14:41.918979Z",
+      "message": "Attempted strategy: primary: article h2 a, article h3 a, .story-body__h1, .gs-c-promo-heading__title"
+    },
+    {
+      "timestamp": "2025-09-14T20:14:44.920104Z",
+      "message": "Attempted strategy: css: [data-testid='card-headline'] a"
+    },
+    {
+      "timestamp": "2025-09-14T20:14:47.920843Z",
+      "message": "Attempted strategy: css: .media__link"
+    },
+    {
+      "timestamp": "2025-09-14T20:14:50.922273Z",
+      "message": "Attempted strategy: css: .story-link"
+    },
+    {
+      "timestamp": "2025-09-14T20:14:50.932375Z",
+      "message": "\u2705 Success using: css: h2 a"
+    },
+    {
+      "timestamp": "2025-09-14T20:14:53.891441Z",
+      "message": "Successfully clicked: css: h2 a"
+    },
+    {
+      "timestamp": "2025-09-14T20:14:53.891451Z",
+      "message": "\u2705 Success using: Autonomous click completed: css: h2 a"
+    }
+  ],
+  "domain": "www.bbc.co.uk",
+  "intent": "click_first_article",
+  "strategies_tried": [
+    "primary: article h2 a, article h3 a, .story-body__h1, .gs-c-promo-heading__title",
+    "css: [data-testid='card-headline'] a",
+    "css: .media__link",
+    "css: .story-link"
+  ],
+  "memory_used": null,
+  "final_strategy": "Autonomous click completed: css: h2 a",
+  "success": true,
+  "error": null
+}

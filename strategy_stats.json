@@ -1,0 +1,26 @@
+{
+  "domains": {
+    "www.bbc.co.uk": {
+      "click_first_article": {
+        "attempts": 4,
+        "successes": 4,
+        "strategies": {
+          "css: h2 a": {
+            "attempts": 4,
+            "successes": 4
+          }
+        }
+      }
+    }
+  },
+  "global_stats": {
+    "total_attempts": 4,
+    "total_successes": 4,
+    "strategy_performance": {
+      "css: h2 a": {
+        "attempts": 4,
+        "successes": 4
+      }
+    }
+  }
+}

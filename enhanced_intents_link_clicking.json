@@ -1,0 +1,128 @@
+{
+  "click_next_page": {
+    "primary_selector": "text=Next",
+    "timeout": 4000,
+    "fallbacks": [
+      { "method": "text-contains", "value": "Next" },
+      { "method": "text-contains", "value": ">" },
+      { "method": "aria-label", "value": "Next page" },
+      { "method": "css", "value": ".next-page, .pagination-next" },
+      { "method": "xpath", "value": "//a[contains(@class, 'next') or contains(text(), 'Next')]" }
+    ]
+  },
+  
+  "click_previous_page": {
+    "primary_selector": "text=Previous",
+    "timeout": 4000,
+    "fallbacks": [
+      { "method": "text-contains", "value": "Previous" },
+      { "method": "text-contains", "value": "Prev" },
+      { "method": "text-contains", "value": "<" },
+      { "method": "aria-label", "value": "Previous page" },
+      { "method": "css", "value": ".prev-page, .pagination-prev" }
+    ]
+  },
+  
+  "click_read_more": {
+    "primary_selector": "text=Read more",
+    "timeout": 4000,
+    "fallbacks": [
+      { "method": "text-contains", "value": "Read more" },
+      { "method": "text-contains", "value": "Continue reading" },
+      { "method": "text-contains", "value": "More" },
+      { "method": "css", "value": ".read-more, .continue-reading" },
+      { "method": "xpath", "value": "//a[contains(text(), 'Read') and contains(text(), 'more')]" }
+    ]
+  },
+  
+  "click_first_article": {
+    "primary_selector": "article h2 a, .article-title a",
+    "timeout": 5000,
+    "fallbacks": [
+      { "method": "css", "value": "article:first-of-type a" },
+      { "method": "css", "value": ".post:first-child a" },
+      { "method": "css", "value": ".news-item:first-child a" },
+      { "method": "xpath", "value": "(//article//a[contains(@href, '/')])[1]" },
+      { "method": "xpath", "value": "(//h1/a | //h2/a | //h3/a)[1]" }
+    ]
+  },
+  
+  "click_search_button": {
+    "primary_selector": "button[type='submit'], input[type='submit']",
+    "timeout": 3000,
+    "fallbacks": [
+      { "method": "text-contains", "value": "Search" },
+      { "method": "aria-label", "value": "Search" },
+      { "method": "css", "value": ".search-button, #search-button" },
+      { "method": "xpath", "value": "//button[contains(text(), 'Search')] | //input[@type='submit']" }
+    ]
+  },
+  
+  "click_accept_cookies": {
+    "primary_selector": "button[id*='accept'], button:has-text('Accept all')",
+    "timeout": 4000,
+    "fallbacks": [
+      { "method": "text-contains", "value": "Accept all" },
+      { "method": "text-contains", "value": "Accept" },
+      { "method": "text-contains", "value": "I agree" },
+      { "method": "text-contains", "value": "Continue" },
+      { "method": "css", "value": ".cookie-accept, #cookie-accept" },
+      { "method": "xpath", "value": "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'accept')]" }
+    ]
+  },
+  
+  "click_menu_toggle": {
+    "primary_selector": "button[aria-label*='menu'], .menu-toggle",
+    "timeout": 3000,
+    "fallbacks": [
+      { "method": "text-contains", "value": "Menu" },
+      { "method": "aria-label", "value": "Menu" },
+      { "method": "css", "value": ".hamburger, .menu-icon, .nav-toggle" },
+      { "method": "xpath", "value": "//button[contains(@class, 'menu')] | //button[contains(@aria-label, 'menu')]" }
+    ]
+  },
+  
+  "click_close_popup": {
+    "primary_selector": "button[aria-label*='close'], .close-button",
+    "timeout": 3000,
+    "fallbacks": [
+      { "method": "text-contains", "value": "×" },
+      { "method": "text-contains", "value": "Close" },
+      { "method": "aria-label", "value": "Close" },
+      { "method": "css", "value": ".modal-close, .popup-close, .dialog-close" },
+      { "method": "xpath", "value": "//button[contains(@aria-label, 'close')] | //button[text()='×']" }
+    ]
+  },
+  
+  "click_login": {
+    "primary_selector": "text=Login",
+    "timeout": 4000,
+    "fallbacks": [
+      { "method": "text-contains", "value": "Login" },
+      { "method": "text-contains", "value": "Log in" },
+      { "method": "text-contains", "value": "Sign in" },
+      { "method": "css", "value": ".login-button, #login, .sign-in" },
+      { "method": "xpath", "value": "//a[contains(text(), 'Login')] | //button[contains(text(), 'Login')]" }
+    ]
+  },
+  
+  "click_download": {
+    "primary_selector": "text=Download",
+    "timeout": 4000,
+    "fallbacks": [
+      { "method": "text-contains", "value": "Download" },
+      { "method": "aria-label", "value": "Download" },
+      { "method": "css", "value": ".download-button, .btn-download" },
+      { "method": "xpath", "value": "//a[contains(@href, 'download')] | //button[contains(text(), 'Download')]" }
+    ]
+  },
+  
+  "click_external_link": {
+    "primary_selector": "a[target='_blank']",
+    "timeout": 4000,
+    "fallbacks": [
+      { "method": "css", "value": "a[href^='http']:not([href*='" + window.location.hostname + "'])" },
+      { "method": "xpath", "value": "//a[starts-with(@href, 'http') and not(contains(@href, '" + window.location.hostname + "'))]" }
+    ]
+  }
+}
