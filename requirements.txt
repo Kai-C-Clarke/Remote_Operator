@@ -1,0 +1,12 @@
+# Autonomous Web Navigation Requirements
+playwright>=1.40.0
+Pillow>=9.0.0
+pytesseract>=0.3.10
+asyncio
+pathlib
+requests
+
+# Development
+pytest>=7.0.0
+black
+flake8

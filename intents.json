@@ -1,135 +1,63 @@
 {
   "click_first_article": {
-    "description": "Click the first prominent article on a news website",
-    "primary_selector": "article h2 a, article h3 a, .story-body__h1, .gs-c-promo-heading__title",
+    "primary_selector": "article h2 a, h2 a, .story-link a",
+    "timeout": 3000,
     "fallbacks": [
       {
         "method": "css",
         "value": "[data-testid='card-headline'] a"
       },
       {
-        "method": "css", 
+        "method": "css",
         "value": ".media__link"
       },
       {
         "method": "css",
-        "value": ".story-link"
-      },
-      {
-        "method": "css",
-        "value": "h2 a"
+        "value": ".post-title a"
       },
       {
         "method": "css",
         "value": "h3 a"
       },
       {
-        "method": "text-contains",
-        "value": "Read more"
-      },
-      {
-        "method": "text-contains", 
-        "value": "Full story"
+        "method": "xpath",
+        "value": "//a[contains(@class, 'storylink')]"
       }
     ]
   },
-  "click_next": {
-    "description": "Click next page or continue button",
-    "primary_selector": "Next",
+  "click_top_story": {
+    "primary_selector": ".top-story a, .lead-story a, .featured a",
+    "timeout": 3000,
     "fallbacks": [
       {
-        "method": "text-contains",
-        "value": "Next"
-      },
-      {
-        "method": "text-contains",
-        "value": "Continue"
-      },
-      {
-        "method": "text-contains",
-        "value": "More"
-      },
-      {
-        "method": "aria-label",
-        "value": "Next"
+        "method": "css",
+        "value": ".headline a"
       },
       {
         "method": "css",
-        "value": ".next-button"
+        "value": ".main-story a"
       },
       {
         "method": "css",
-        "value": "[aria-label*='next']"
+        "value": "h1 a"
       }
     ]
   },
-  "find_top_story": {
-    "description": "Find and click the top story on news sites",
-    "primary_selector": ".top-story a, .lead-story a",
+  "click_latest_news": {
+    "primary_selector": ".latest a, .breaking a, .news-item a",
+    "timeout": 3000,
     "fallbacks": [
       {
         "method": "css",
-        "value": ".storylink"
+        "value": ".story a"
       },
       {
         "method": "css",
-        "value": ".titleline > a"
+        "value": ".article-link"
       },
       {
         "method": "css",
-        "value": "tr.athing:first-child .titleline a"
-      },
-      {
-        "method": "css",
-        "value": ".post-title a"
-      }
-    ]
-  },
-  "search_submit": {
-    "description": "Submit a search form",
-    "primary_selector": "[type='submit']",
-    "fallbacks": [
-      {
-        "method": "text-contains",
-        "value": "Search"
-      },
-      {
-        "method": "css",
-        "value": "button[type='submit']"
-      },
-      {
-        "method": "css",
-        "value": ".search-button"
-      },
-      {
-        "method": "css",
-        "value": "[value='Search']"
-      }
-    ]
-  },
-  "click_login": {
-    "description": "Click login or sign in button",
-    "primary_selector": "Sign in",
-    "fallbacks": [
-      {
-        "method": "text-contains",
-        "value": "Login"
-      },
-      {
-        "method": "text-contains",
-        "value": "Sign in"
-      },
-      {
-        "method": "text-contains",
-        "value": "Log in"
-      },
-      {
-        "method": "css",
-        "value": ".login-button"
-      },
-      {
-        "method": "css",
-        "value": "[data-testid='login']"
+        "value": "article a"
       }
     ]
   }

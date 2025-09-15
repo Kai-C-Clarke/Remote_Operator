@@ -1,0 +1,381 @@
+{
+  "www.theguardian.com_click_first_article": {
+    "strategies": [
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": false,
+        "timestamp": 1757956596.809456
+      },
+      {
+        "strategy": "[data-testid='card-headline'] a",
+        "success": false,
+        "timestamp": 1757956596.81635
+      },
+      {
+        "strategy": ".media__link",
+        "success": false,
+        "timestamp": 1757956596.820811
+      },
+      {
+        "strategy": ".post-title a",
+        "success": false,
+        "timestamp": 1757956596.8271072
+      },
+      {
+        "strategy": "h3 a",
+        "success": false,
+        "timestamp": 1757956596.832182
+      },
+      {
+        "strategy": "//a[contains(@class, 'storylink')]",
+        "success": false,
+        "timestamp": 1757956596.8356
+      },
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": false,
+        "timestamp": 1757957582.641771
+      },
+      {
+        "strategy": "[data-testid='card-headline'] a",
+        "success": false,
+        "timestamp": 1757957582.649041
+      },
+      {
+        "strategy": ".media__link",
+        "success": false,
+        "timestamp": 1757957582.6534069
+      },
+      {
+        "strategy": ".post-title a",
+        "success": false,
+        "timestamp": 1757957582.6593988
+      },
+      {
+        "strategy": "h3 a",
+        "success": false,
+        "timestamp": 1757957582.6644459
+      },
+      {
+        "strategy": "//a[contains(@class, 'storylink')]",
+        "success": false,
+        "timestamp": 1757957582.6678069
+      }
+    ],
+    "success_count": 0,
+    "total_count": 12
+  },
+  "www.ycombinator.com_click_first_article": {
+    "strategies": [
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": false,
+        "timestamp": 1757956634.061307
+      },
+      {
+        "strategy": "[data-testid='card-headline'] a",
+        "success": false,
+        "timestamp": 1757956634.066092
+      },
+      {
+        "strategy": ".media__link",
+        "success": false,
+        "timestamp": 1757956634.069549
+      },
+      {
+        "strategy": ".post-title a",
+        "success": false,
+        "timestamp": 1757956634.073662
+      },
+      {
+        "strategy": "h3 a",
+        "success": false,
+        "timestamp": 1757956634.077624
+      },
+      {
+        "strategy": "//a[contains(@class, 'storylink')]",
+        "success": false,
+        "timestamp": 1757956634.080651
+      },
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": false,
+        "timestamp": 1757956669.412101
+      },
+      {
+        "strategy": "[data-testid='card-headline'] a",
+        "success": false,
+        "timestamp": 1757956669.4166038
+      },
+      {
+        "strategy": ".media__link",
+        "success": false,
+        "timestamp": 1757956669.420036
+      },
+      {
+        "strategy": ".post-title a",
+        "success": false,
+        "timestamp": 1757956669.4239628
+      },
+      {
+        "strategy": "h3 a",
+        "success": false,
+        "timestamp": 1757956669.427747
+      },
+      {
+        "strategy": "//a[contains(@class, 'storylink')]",
+        "success": false,
+        "timestamp": 1757956669.4308538
+      }
+    ],
+    "success_count": 0,
+    "total_count": 12
+  },
+  "www.stackoverflow.com_click_first_article": {
+    "strategies": [
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": false,
+        "timestamp": 1757956738.6993349
+      },
+      {
+        "strategy": "[data-testid='card-headline'] a",
+        "success": false,
+        "timestamp": 1757956738.704017
+      },
+      {
+        "strategy": ".media__link",
+        "success": false,
+        "timestamp": 1757956738.707505
+      },
+      {
+        "strategy": ".post-title a",
+        "success": false,
+        "timestamp": 1757956738.7117078
+      },
+      {
+        "strategy": "h3 a",
+        "success": false,
+        "timestamp": 1757956738.744938
+      },
+      {
+        "strategy": "//a[contains(@class, 'storylink')]",
+        "success": false,
+        "timestamp": 1757956738.747988
+      }
+    ],
+    "success_count": 0,
+    "total_count": 6
+  },
+  "www.gliding.co.uk_click_first_article": {
+    "strategies": [
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": false,
+        "timestamp": 1757957617.168585
+      },
+      {
+        "strategy": "[data-testid='card-headline'] a",
+        "success": false,
+        "timestamp": 1757957617.1726432
+      },
+      {
+        "strategy": ".media__link",
+        "success": false,
+        "timestamp": 1757957617.175421
+      },
+      {
+        "strategy": ".post-title a",
+        "success": false,
+        "timestamp": 1757957617.1788712
+      },
+      {
+        "strategy": "h3 a",
+        "success": false,
+        "timestamp": 1757957617.182407
+      },
+      {
+        "strategy": "//a[contains(@class, 'storylink')]",
+        "success": false,
+        "timestamp": 1757957617.185364
+      }
+    ],
+    "success_count": 0,
+    "total_count": 6
+  },
+  "www.youtube.com_click_first_article": {
+    "strategies": [
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": false,
+        "timestamp": 1757957654.237344
+      },
+      {
+        "strategy": "[data-testid='card-headline'] a",
+        "success": false,
+        "timestamp": 1757957654.242168
+      },
+      {
+        "strategy": ".media__link",
+        "success": false,
+        "timestamp": 1757957654.245879
+      },
+      {
+        "strategy": ".post-title a",
+        "success": false,
+        "timestamp": 1757957654.249942
+      },
+      {
+        "strategy": "h3 a",
+        "success": false,
+        "timestamp": 1757957654.254518
+      },
+      {
+        "strategy": "//a[contains(@class, 'storylink')]",
+        "success": false,
+        "timestamp": 1757957654.257725
+      }
+    ],
+    "success_count": 0,
+    "total_count": 6
+  },
+  "www.wikipedia.org_click_first_article": {
+    "strategies": [
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": false,
+        "timestamp": 1757957698.532073
+      },
+      {
+        "strategy": "[data-testid='card-headline'] a",
+        "success": false,
+        "timestamp": 1757957698.5371158
+      },
+      {
+        "strategy": ".media__link",
+        "success": false,
+        "timestamp": 1757957698.5403972
+      },
+      {
+        "strategy": ".post-title a",
+        "success": false,
+        "timestamp": 1757957698.544968
+      },
+      {
+        "strategy": "h3 a",
+        "success": false,
+        "timestamp": 1757957698.549257
+      },
+      {
+        "strategy": "//a[contains(@class, 'storylink')]",
+        "success": false,
+        "timestamp": 1757957698.55245
+      }
+    ],
+    "success_count": 0,
+    "total_count": 6
+  },
+  "www.github.com_click_first_article": {
+    "strategies": [
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": false,
+        "timestamp": 1757957833.4445472
+      },
+      {
+        "strategy": "[data-testid='card-headline'] a",
+        "success": false,
+        "timestamp": 1757957833.451575
+      },
+      {
+        "strategy": ".media__link",
+        "success": false,
+        "timestamp": 1757957833.455081
+      },
+      {
+        "strategy": ".post-title a",
+        "success": false,
+        "timestamp": 1757957833.459181
+      },
+      {
+        "strategy": "h3 a",
+        "success": true,
+        "timestamp": 1757957833.57889
+      }
+    ],
+    "success_count": 1,
+    "total_count": 5
+  },
+  "www.reuters.com_click_first_article": {
+    "strategies": [
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": false,
+        "timestamp": 1757957874.970464
+      },
+      {
+        "strategy": "[data-testid='card-headline'] a",
+        "success": false,
+        "timestamp": 1757957874.973957
+      },
+      {
+        "strategy": ".media__link",
+        "success": false,
+        "timestamp": 1757957874.9766479
+      },
+      {
+        "strategy": ".post-title a",
+        "success": false,
+        "timestamp": 1757957875.071865
+      },
+      {
+        "strategy": "h3 a",
+        "success": false,
+        "timestamp": 1757957875.07483
+      },
+      {
+        "strategy": "//a[contains(@class, 'storylink')]",
+        "success": false,
+        "timestamp": 1757957875.0776808
+      }
+    ],
+    "success_count": 0,
+    "total_count": 6
+  },
+  "www.soundcloud.com_click_first_article": {
+    "strategies": [
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": false,
+        "timestamp": 1757957910.263005
+      },
+      {
+        "strategy": "[data-testid='card-headline'] a",
+        "success": false,
+        "timestamp": 1757957910.2674088
+      },
+      {
+        "strategy": ".media__link",
+        "success": false,
+        "timestamp": 1757957910.270391
+      },
+      {
+        "strategy": ".post-title a",
+        "success": false,
+        "timestamp": 1757957910.273629
+      },
+      {
+        "strategy": "h3 a",
+        "success": false,
+        "timestamp": 1757957910.277204
+      },
+      {
+        "strategy": "//a[contains(@class, 'storylink')]",
+        "success": false,
+        "timestamp": 1757957910.280449
+      }
+    ],
+    "success_count": 0,
+    "total_count": 6
+  }
+}

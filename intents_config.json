@@ -1,0 +1,108 @@
+{
+  "click_first_article": {
+    "description": "Click the first article found on the page",
+    "primary_selector": "article h2 a, h2 a, .story-link a, .storylink",
+    "timeout": 3000,
+    "fallbacks": [
+      {"method": "css", "value": "[data-testid='card-headline'] a"},
+      {"method": "css", "value": ".media__link"},
+      {"method": "css", "value": ".post-title a"},
+      {"method": "css", "value": "h3 a"},
+      {"method": "css", "value": ".entry-title a"},
+      {"method": "css", "value": ".article-headline a"},
+      {"method": "xpath", "value": "//a[contains(@class, 'storylink')]"}
+    ]
+  },
+  "click_top_story": {
+    "description": "Click the main/featured story",
+    "primary_selector": ".top-story a, .lead-story a, .featured a, .hero-story a",
+    "timeout": 3000,
+    "fallbacks": [
+      {"method": "css", "value": ".headline a"},
+      {"method": "css", "value": ".main-story a"},
+      {"method": "css", "value": "h1 a"},
+      {"method": "css", "value": ".primary-story a"}
+    ]
+  },
+  "click_latest_news": {
+    "description": "Click latest or breaking news",
+    "primary_selector": ".latest a, .breaking a, .news-item a, .recent a",
+    "timeout": 3000,
+    "fallbacks": [
+      {"method": "css", "value": ".story a"},
+      {"method": "css", "value": ".article-link"},
+      {"method": "css", "value": "article a"},
+      {"method": "css", "value": ".news-headline a"}
+    ]
+  },
+  "click_technology": {
+    "description": "Click technology-related articles",
+    "primary_selector": "a[href*='tech'], a[href*='technology'], .tech a",
+    "timeout": 3000,
+    "fallbacks": [
+      {"method": "xpath", "value": "//a[contains(text(), 'Tech')]"},
+      {"method": "xpath", "value": "//a[contains(text(), 'Technology')]"},
+      {"method": "css", "value": "[data-category*='tech'] a"}
+    ]
+  },
+  "click_reddit_post": {
+    "description": "Click first Reddit post",
+    "primary_selector": "[data-testid='post-container'] h3 a, .Post h3 a",
+    "timeout": 3000,
+    "fallbacks": [
+      {"method": "css", "value": ".thing .title a"},
+      {"method": "css", "value": ".scrollerItem h3 a"},
+      {"method": "css", "value": "[data-click-id='text'] a"},
+      {"method": "xpath", "value": "//div[@data-testid='post-content']//a"}
+    ]
+  },
+  "click_hacker_news": {
+    "description": "Click Hacker News article",
+    "primary_selector": ".titleline > a, .storylink",
+    "timeout": 3000,
+    "fallbacks": [
+      {"method": "css", "value": ".title a"},
+      {"method": "css", "value": "tr.athing .titleline a"},
+      {"method": "xpath", "value": "//a[@class='storylink']"}
+    ]
+  },
+  "click_bbc_article": {
+    "description": "Click BBC News article",
+    "primary_selector": "[data-testid='card-headline'] a, .media__link, h2 a",
+    "timeout": 3000,
+    "fallbacks": [
+      {"method": "css", "value": ".gs-c-promo-heading__title"},
+      {"method": "css", "value": ".story-body__h1"},
+      {"method": "css", "value": "article h3 a"},
+      {"method": "xpath", "value": "//h2//a | //h3//a"}
+    ]
+  },
+  "click_github_repo": {
+    "description": "Click GitHub repository",
+    "primary_selector": "[data-testid='repo-name-link'], .repo-list h3 a",
+    "timeout": 3000,
+    "fallbacks": [
+      {"method": "css", "value": ".js-navigation-open"},
+      {"method": "css", "value": ".Box-row h3 a"},
+      {"method": "xpath", "value": "//a[contains(@class, 'repo')]"}
+    ]
+  },
+  "navigate_back": {
+    "description": "Navigate back to previous page",
+    "primary_selector": "button[aria-label='Back'], .back-button",
+    "timeout": 2000,
+    "fallbacks": [
+      {"method": "browser_action", "value": "back"},
+      {"method": "keyboard", "value": "Alt+Left"}
+    ]
+  },
+  "scroll_down": {
+    "description": "Scroll down the page",
+    "primary_selector": null,
+    "timeout": 1000,
+    "fallbacks": [
+      {"method": "scroll", "value": "page_down"},
+      {"method": "keyboard", "value": "Page_Down"}
+    ]
+  }
+}
