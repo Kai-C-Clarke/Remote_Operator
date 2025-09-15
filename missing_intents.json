@@ -1,0 +1,93 @@
+{
+  "read_content": {
+    "description": "Extract and analyze main content from the current page",
+    "primary": "article, main, .content, .story-body, .post-content",
+    "fallbacks": [
+      {
+        "method": "css",
+        "value": "[role='main']"
+      },
+      {
+        "method": "css", 
+        "value": ".article-content"
+      },
+      {
+        "method": "css",
+        "value": ".entry-content"
+      },
+      {
+        "method": "css",
+        "value": "main"
+      },
+      {
+        "method": "css",
+        "value": "#content"
+      },
+      {
+        "method": "css",
+        "value": ".content"
+      },
+      {
+        "method": "xpath",
+        "value": "//div[contains(@class, 'content') or contains(@class, 'article')]"
+      },
+      {
+        "method": "css",
+        "value": "body"
+      }
+    ],
+    "action_type": "extract_text",
+    "timeout": 10000,
+    "min_content_length": 50,
+    "max_content_length": 5000
+  },
+  "navigate_back": {
+    "description": "Navigate back to the previous page",
+    "primary": "browser_back",
+    "fallbacks": [
+      {
+        "method": "css",
+        "value": "[aria-label*='back' i]"
+      },
+      {
+        "method": "css",
+        "value": "[title*='back' i]"
+      },
+      {
+        "method": "css",
+        "value": ".back-button"
+      },
+      {
+        "method": "css",
+        "value": ".btn-back"
+      },
+      {
+        "method": "text-contains",
+        "value": "← Back"
+      },
+      {
+        "method": "text-contains",
+        "value": "Back"
+      },
+      {
+        "method": "text-contains",
+        "value": "« Back"
+      },
+      {
+        "method": "xpath",
+        "value": "//a[contains(text(), 'Back') or contains(@aria-label, 'back')]"
+      },
+      {
+        "method": "css",
+        "value": "a[href='javascript:history.back()']"
+      },
+      {
+        "method": "browser_back",
+        "value": ""
+      }
+    ],
+    "action_type": "navigate",
+    "timeout": 5000,
+    "verify_navigation": true
+  }
+}

@@ -2,24 +2,24 @@
   "domains": {
     "www.bbc.co.uk": {
       "click_first_article": {
-        "attempts": 4,
-        "successes": 4,
+        "attempts": 5,
+        "successes": 5,
         "strategies": {
           "css: h2 a": {
-            "attempts": 4,
-            "successes": 4
+            "attempts": 5,
+            "successes": 5
           }
         }
       }
     }
   },
   "global_stats": {
-    "total_attempts": 4,
-    "total_successes": 4,
+    "total_attempts": 5,
+    "total_successes": 5,
     "strategy_performance": {
       "css: h2 a": {
-        "attempts": 4,
-        "successes": 4
+        "attempts": 5,
+        "successes": 5
       }
     }
   }

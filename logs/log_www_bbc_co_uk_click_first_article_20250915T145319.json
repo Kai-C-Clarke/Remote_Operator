@@ -1,0 +1,113 @@
+{
+  "timestamp": "2025-09-15T14:52:45.720116Z",
+  "events": [
+    {
+      "timestamp": "2025-09-15T14:52:56.603262Z",
+      "message": "Debug screenshot saved: debug_screenshots/before_interruptions_www.bbc.co.uk_click_first_article.png (2535554 bytes)"
+    },
+    {
+      "timestamp": "2025-09-15T14:52:56.603281Z",
+      "message": "Checking for page interruptions..."
+    },
+    {
+      "timestamp": "2025-09-15T14:52:58.104825Z",
+      "message": "Trying DOM-based detection..."
+    },
+    {
+      "timestamp": "2025-09-15T14:52:58.117470Z",
+      "message": "Found 10 potential cookie containers via DOM analysis"
+    },
+    {
+      "timestamp": "2025-09-15T14:52:58.117485Z",
+      "message": "   Container: DIV - bbc homepageskip to contentaccessibility helpsign ..."
+    },
+    {
+      "timestamp": "2025-09-15T14:52:58.117492Z",
+      "message": "   Container: DIV - bbc homepageskip to contentaccessibility helpsign ..."
+    },
+    {
+      "timestamp": "2025-09-15T14:52:58.117496Z",
+      "message": "   Container: DIV - bbc homepageskip to contentaccessibility helpsign ..."
+    },
+    {
+      "timestamp": "2025-09-15T14:52:58.146158Z",
+      "message": "No interruptions detected or all handling failed"
+    },
+    {
+      "timestamp": "2025-09-15T14:52:59.214995Z",
+      "message": "Debug screenshot saved: debug_screenshots/after_interruptions_www.bbc.co.uk_click_first_article.png (2534916 bytes)"
+    },
+    {
+      "timestamp": "2025-09-15T14:53:05.220670Z",
+      "message": "Attempted strategy: primary: article h2 a, article h3 a, .story-body__h1, .gs-c-promo-heading__title"
+    },
+    {
+      "timestamp": "2025-09-15T14:53:08.222644Z",
+      "message": "Attempted strategy: css: [data-testid='card-headline'] a"
+    },
+    {
+      "timestamp": "2025-09-15T14:53:11.224696Z",
+      "message": "Attempted strategy: css: .media__link"
+    },
+    {
+      "timestamp": "2025-09-15T14:53:14.226016Z",
+      "message": "Attempted strategy: css: .story-link"
+    },
+    {
+      "timestamp": "2025-09-15T14:53:14.444798Z",
+      "message": "\u2705 Success using: css: h2 a"
+    },
+    {
+      "timestamp": "2025-09-15T14:53:16.752642Z",
+      "message": "Successfully clicked: css: h2 a"
+    },
+    {
+      "timestamp": "2025-09-15T14:53:16.752651Z",
+      "message": "Checking for page interruptions..."
+    },
+    {
+      "timestamp": "2025-09-15T14:53:18.254173Z",
+      "message": "Trying DOM-based detection..."
+    },
+    {
+      "timestamp": "2025-09-15T14:53:18.267358Z",
+      "message": "Found 10 potential cookie containers via DOM analysis"
+    },
+    {
+      "timestamp": "2025-09-15T14:53:18.267372Z",
+      "message": "   Container: DIV - bbc homepageskip to contentaccessibility helpsign ..."
+    },
+    {
+      "timestamp": "2025-09-15T14:53:18.267376Z",
+      "message": "   Container: DIV - bbc homepageskip to contentaccessibility helpsign ..."
+    },
+    {
+      "timestamp": "2025-09-15T14:53:18.267379Z",
+      "message": "   Container: DIV - bbc homepageskip to contentaccessibility helpsign ..."
+    },
+    {
+      "timestamp": "2025-09-15T14:53:18.299068Z",
+      "message": "No interruptions detected or all handling failed"
+    },
+    {
+      "timestamp": "2025-09-15T14:53:19.331602Z",
+      "message": "Debug screenshot saved: debug_screenshots/final_result_www.bbc.co.uk_click_first_article.png (2743802 bytes)"
+    },
+    {
+      "timestamp": "2025-09-15T14:53:19.331617Z",
+      "message": "\u2705 Success using: Autonomous click completed: css: h2 a"
+    }
+  ],
+  "domain": "www.bbc.co.uk",
+  "intent": "click_first_article",
+  "strategies_tried": [
+    "primary: article h2 a, article h3 a, .story-body__h1, .gs-c-promo-heading__title",
+    "css: [data-testid='card-headline'] a",
+    "css: .media__link",
+    "css: .story-link"
+  ],
+  "memory_used": null,
+  "final_strategy": "Autonomous click completed: css: h2 a",
+  "success": true,
+  "error": null
+}
