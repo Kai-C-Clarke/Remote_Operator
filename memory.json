@@ -60,10 +60,40 @@
         "strategy": "//a[contains(@class, 'storylink')]",
         "success": false,
         "timestamp": 1757957582.6678069
+      },
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": false,
+        "timestamp": 1757971816.951605
+      },
+      {
+        "strategy": "[data-testid='card-headline'] a",
+        "success": false,
+        "timestamp": 1757971816.9591548
+      },
+      {
+        "strategy": ".media__link",
+        "success": false,
+        "timestamp": 1757971816.964691
+      },
+      {
+        "strategy": ".post-title a",
+        "success": false,
+        "timestamp": 1757971816.970538
+      },
+      {
+        "strategy": "h3 a",
+        "success": false,
+        "timestamp": 1757971816.977071
+      },
+      {
+        "strategy": "//a[contains(@class, 'storylink')]",
+        "success": false,
+        "timestamp": 1757971816.981122
       }
     ],
     "success_count": 0,
-    "total_count": 12
+    "total_count": 18
   },
   "www.ycombinator.com_click_first_article": {
     "strategies": [
@@ -301,10 +331,15 @@
         "strategy": "h3 a",
         "success": true,
         "timestamp": 1757957833.57889
+      },
+      {
+        "strategy": "h3 a",
+        "success": true,
+        "timestamp": 1757971776.907707
       }
     ],
-    "success_count": 1,
-    "total_count": 5
+    "success_count": 2,
+    "total_count": 6
   },
   "www.reuters.com_click_first_article": {
     "strategies": [
@@ -337,10 +372,40 @@
         "strategy": "//a[contains(@class, 'storylink')]",
         "success": false,
         "timestamp": 1757957875.0776808
+      },
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": false,
+        "timestamp": 1757971708.1231868
+      },
+      {
+        "strategy": "[data-testid='card-headline'] a",
+        "success": false,
+        "timestamp": 1757971708.126734
+      },
+      {
+        "strategy": ".media__link",
+        "success": false,
+        "timestamp": 1757971708.129808
+      },
+      {
+        "strategy": ".post-title a",
+        "success": false,
+        "timestamp": 1757971708.132876
+      },
+      {
+        "strategy": "h3 a",
+        "success": false,
+        "timestamp": 1757971708.137574
+      },
+      {
+        "strategy": "//a[contains(@class, 'storylink')]",
+        "success": false,
+        "timestamp": 1757971708.140862
       }
     ],
     "success_count": 0,
-    "total_count": 6
+    "total_count": 12
   },
   "www.soundcloud.com_click_first_article": {
     "strategies": [
@@ -373,6 +438,58 @@
         "strategy": "//a[contains(@class, 'storylink')]",
         "success": false,
         "timestamp": 1757957910.280449
+      }
+    ],
+    "success_count": 0,
+    "total_count": 6
+  },
+  "www.bbc.co.uk_click_first_article": {
+    "strategies": [
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": true,
+        "timestamp": 1757971514.240799
+      },
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": true,
+        "timestamp": 1758134521.642524
+      }
+    ],
+    "success_count": 2,
+    "total_count": 2
+  },
+  "www.guardian.com_click_first_article": {
+    "strategies": [
+      {
+        "strategy": "article h2 a, h2 a, .story-link a",
+        "success": false,
+        "timestamp": 1758134775.6403468
+      },
+      {
+        "strategy": "[data-testid='card-headline'] a",
+        "success": false,
+        "timestamp": 1758134775.644455
+      },
+      {
+        "strategy": ".media__link",
+        "success": false,
+        "timestamp": 1758134775.647446
+      },
+      {
+        "strategy": ".post-title a",
+        "success": false,
+        "timestamp": 1758134775.651351
+      },
+      {
+        "strategy": "h3 a",
+        "success": false,
+        "timestamp": 1758134775.6558762
+      },
+      {
+        "strategy": "//a[contains(@class, 'storylink')]",
+        "success": false,
+        "timestamp": 1758134775.659051
       }
     ],
     "success_count": 0,

@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "2025-09-15 20:33:06",
+    "url": "https://www.metoffice.gov",
+    "chosen_link": null,
+    "reflection": "Kai explored https://www.metoffice.gov and found nothing useful",
+    "screenshot": null
+  },
+  {
+    "timestamp": "2025-09-15 20:33:22",
+    "url": "https://www.metoffice.gov",
+    "chosen_link": null,
+    "reflection": "Kai explored https://www.metoffice.gov and found nothing useful",
+    "screenshot": null
+  },
+  {
+    "timestamp": "2025-09-15 20:37:43",
+    "url": "https://www.bbc.co.uk",
+    "chosen_link": "https://www.bbc.co.uk/usingthebbc/cookies/what-do-i-need-to-know-about-cookies/",
+    "reflection": "Kai explored https://www.bbc.co.uk and found https://www.bbc.co.uk/usingthebbc/cookies/what-do-i-need-to-know-about-cookies/",
+    "screenshot": null
+  },
+  {
+    "timestamp": "2025-09-15 20:38:05",
+    "url": "https://www.bbc.co.uk",
+    "chosen_link": "https://www.bbc.co.uk/usingthebbc/cookies/what-do-i-need-to-know-about-cookies/",
+    "reflection": "Kai explored https://www.bbc.co.uk and found https://www.bbc.co.uk/usingthebbc/cookies/what-do-i-need-to-know-about-cookies/",
+    "screenshot": null
+  },
+  {
+    "timestamp": "2025-09-15 20:42:34",
+    "url": "https://www.bbc.co.uk",
+    "chosen_link": "https://www.bbc.co.uk/usingthebbc/cookies/what-do-i-need-to-know-about-cookies/",
+    "reflection": "Kai explored https://www.bbc.co.uk and found https://www.bbc.co.uk/usingthebbc/cookies/what-do-i-need-to-know-about-cookies/",
+    "screenshot": null
+  },
+  {
+    "timestamp": "2025-09-15 20:55:21",
+    "url": "https://www.bbe.co.uk",
+    "chosen_link": "https://www.bbe.co.uk",
+    "reflection": "Opened new site: https://www.bbe.co.uk",
+    "screenshot": null
+  },
+  {
+    "timestamp": "2025-09-15 22:09:43",
+    "url": "https://www.bbe.co.uk",
+    "chosen_link": "https://www.bbe.co.uk",
+    "reflection": "Opened new site: https://www.bbe.co.uk",
+    "screenshot": null
+  },
+  {
+    "timestamp": "2025-09-15 22:14:40",
+    "url": "https://www.reuters.com",
+    "chosen_link": "https://www.reuters.com",
+    "reflection": "Opened new site: https://www.reuters.com",
+    "screenshot": null
+  }
+]
